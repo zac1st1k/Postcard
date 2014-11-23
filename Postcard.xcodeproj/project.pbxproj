@@ -13,6 +13,9 @@
 		1105C80F1A0A109900A76A60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1105C80E1A0A109900A76A60 /* Images.xcassets */; };
 		1105C8121A0A109900A76A60 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1105C8101A0A109900A76A60 /* LaunchScreen.xib */; };
 		1105C81E1A0A109900A76A60 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1105C81D1A0A109900A76A60 /* PostcardTests.swift */; };
+		119E88DA1A21CE8E00C5D3A9 /* La-Sagrada-Familia-Cathedral-in-Barcelona-Spain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119E88D91A21CE8E00C5D3A9 /* La-Sagrada-Familia-Cathedral-in-Barcelona-Spain.jpg */; };
+		11F1B7F01A21C97200041610 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 11F1B7EF1A21C97200041610 /* SagradaFamilia.jpeg */; };
+		11F1B7F21A21C97E00041610 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11F1B7F11A21C97E00041610 /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		1105C8171A0A109900A76A60 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1105C81C1A0A109900A76A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1105C81D1A0A109900A76A60 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		119E88D91A21CE8E00C5D3A9 /* La-Sagrada-Familia-Cathedral-in-Barcelona-Spain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "La-Sagrada-Familia-Cathedral-in-Barcelona-Spain.jpg"; sourceTree = "<group>"; };
+		11F1B7EF1A21C97200041610 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		11F1B7F11A21C97E00041610 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,7 @@
 		1105C8051A0A109900A76A60 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				119E88D91A21CE8E00C5D3A9 /* La-Sagrada-Familia-Cathedral-in-Barcelona-Spain.jpg */,
 				1105C8061A0A109900A76A60 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -107,6 +114,8 @@
 		1105C81B1A0A109900A76A60 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				11F1B7F11A21C97E00041610 /* AlbertEinsteinStamp.jpg */,
+				11F1B7EF1A21C97200041610 /* SagradaFamilia.jpeg */,
 				1105C81C1A0A109900A76A60 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -161,6 +170,7 @@
 				TargetAttributes = {
 					1105C8011A0A109900A76A60 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 5VVFP63LAX;
 					};
 					1105C8161A0A109900A76A60 = {
 						CreatedOnToolsVersion = 6.1;
@@ -192,7 +202,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				119E88DA1A21CE8E00C5D3A9 /* La-Sagrada-Familia-Cathedral-in-Barcelona-Spain.jpg in Resources */,
 				1105C80D1A0A109900A76A60 /* Main.storyboard in Resources */,
+				11F1B7F01A21C97200041610 /* SagradaFamilia.jpeg in Resources */,
+				11F1B7F21A21C97E00041610 /* AlbertEinsteinStamp.jpg in Resources */,
 				1105C8121A0A109900A76A60 /* LaunchScreen.xib in Resources */,
 				1105C80F1A0A109900A76A60 /* Images.xcassets in Resources */,
 			);
@@ -407,6 +420,7 @@
 				1105C8231A0A109900A76A60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1105C8241A0A109900A76A60 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +429,7 @@
 				1105C8261A0A109900A76A60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
